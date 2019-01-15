@@ -1,6 +1,6 @@
 html {
-    width: 1000px;
-    margin: 0;
+    width: auto;
+    margin: auto;
 }
 
 ul {
@@ -8,32 +8,39 @@ list-style: none;
 }
 
 header {
-    background: black;
+    background: rosybrown;
     height: 150px;
 }
 h1, .menu {
     color: white;
+    font-size: 18px;
 }
 
 li, h1 {
     display: inline;
     padding: 20px;
-   
-}
+   }
 
 input[type=text], textarea {
     border: 2px solid black;
-    width: 60%;
+    width: 30%;
     padding: 12px;
     margin: 16px;
-
 }
 
-input[type=send]:hover {
-    background-color: yellow;
+
+input[type=button] {
+    background-color: goldenrod;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+    width: 150px;
 }
 
-label {
-  float: left;
-  display: block; 
+.form-line-item {
+    flex-direction: column;
+    
 }
+
