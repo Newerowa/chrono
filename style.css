@@ -37,10 +37,7 @@ input[type=button] {
     font-size: 18px;
     padding: 5px 20px;
     width: 150px;
+    margin: 10px 265px;
 }
 
-.form-line-item {
-    flex-direction: column;
     
-}
-
