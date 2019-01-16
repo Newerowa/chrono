@@ -40,3 +40,16 @@ input[type=button] {
     margin: 10px 265px;
 }
 
+.sidenavigation {
+   
+}
+
+.information {
+    text-align: left;
+    width: auto;
+
+}
+
+.delivery {
+ list-style: square outside;   
+}
