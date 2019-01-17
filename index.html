@@ -21,30 +21,31 @@
     </header>
 
     <main class="container">
-      <div class="form-line-item">
+      <div>
         <h1>Contact us</h1>
         <h2>For any inquiries please contact us</h2>
-        <form action="" method="POST">
+        <form action="" method="POST" class="form">
           <div class="form-line-item">
             <label for="name"
-              >Name<input type="text" class="input" id="name" name="Name"
+              ><span>Name</span
+              ><input type="text" class="input" id="name" name="Name"
             /></label>
           </div>
           <div class="form-line-item">
             <label for="e-mail"
-              >E-Mail<input type="email" class="input" id="e-mail" name="E-Mail"
+              ><span>E-Mail</span
+              ><input type="email" class="input" id="e-mail" name="E-Mail"
             /></label>
           </div>
           <div class="form-line-item">
             <label for="message"
-              >Message<textarea
-                id="message"
-                class="input"
-                name="message"
-              ></textarea
+              ><span>Message</span
+              ><textarea id="message" class="input" name="message"></textarea
             ></label>
           </div>
-          <input type="button" value="Send" />
+          <div class="form-line-item">
+            <input type="button" value="Send" class="button" />
+          </div>
         </form>
       </div>
       <h2>or send us email</h2>

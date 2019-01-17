@@ -25,10 +25,10 @@ li, h1 {
     border: 2px solid black;
     width: 30%;
     padding: 12px;
-    margin: 16px;
+
 }
 
-input[type=button] {
+.button {
     background-color: goldenrod;
     border: 2px solid black;
     color: black;
@@ -36,6 +36,34 @@ input[type=button] {
     font-size: 18px;
     padding: 5px 20px;
     width: 150px;
-    margin: 10px 265px;
+    margin: 10px 0 10px auto;
+    transition: all 300ms ease-in-out
 }
 
+.button:hover, .button:focus {
+    background-color: gold
+}
+
+.form {
+    min-width: 350px;
+    max-width: 600px;
+}
+
+.form-line-item {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.form-line-item label {
+    width: 100%;
+    display: flex;
+}
+
+.form-line-item .input {
+    flex-grow: 1;
+}
+
+.form-line-item span {
+    width: 150px;
+
+}
