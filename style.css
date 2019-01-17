@@ -4,7 +4,7 @@ html {
 }
 
 ul {
-list-style: none; 
+list-style: none;
 }
 
 header {
@@ -21,13 +21,12 @@ li, h1 {
     padding: 20px;
    }
 
-input[type=text], textarea {
+.input {
     border: 2px solid black;
     width: 30%;
     padding: 12px;
     margin: 16px;
 }
-
 
 input[type=button] {
     background-color: goldenrod;
