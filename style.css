@@ -3,8 +3,9 @@ html {
     margin: auto;
 }
 
-ul {
-list-style: none; 
+ul.menu {
+list-style: none;
+display: inline; 
 }
 
 header {
@@ -16,40 +17,21 @@ h1, .menu {
     font-size: 18px;
 }
 
-li, h1 {
-    display: inline;
-    padding: 20px;
-   }
-
-input[type=text], textarea {
-    border: 2px solid black;
-    width: 30%;
-    padding: 12px;
-    margin: 16px;
-}
 
 
-input[type=button] {
-    background-color: goldenrod;
-    border: 2px solid black;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    padding: 5px 20px;
-    width: 150px;
-    margin: 10px 265px;
-}
-
-.sidenavigation {
-   
+.sidenavigation { 
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  
 }
 
 .information {
-    text-align: left;
-    width: auto;
-
+    margin-left: 100px;
+    padding: 0px;
+    height: 100%;
 }
 
-.delivery {
- list-style: square outside;   
+.wrapper {
+    display: flex;
 }
