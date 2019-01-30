@@ -1,37 +1,19 @@
-html {
-    width: auto;
-    margin: auto;
-}
-
-ul.menu {
-list-style: none;
-display: inline; 
-}
-
-header {
-    background: rosybrown;
-    height: 150px;
-}
-h1, .menu {
-    color: white;
-    font-size: 18px;
-}
-
-
-
-.sidenavigation { 
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-  
-}
-
-.information {
-    margin-left: 100px;
-    padding: 0px;
+body, html {
     height: 100%;
 }
 
-.wrapper {
-    display: flex;
+.hero-image {
+   background-image:  url("images/young.jpg");
+   height: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
